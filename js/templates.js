@@ -3,13 +3,22 @@ import {getEntity, syncEntity} from './lytek.js';
 
 export let entityTemplate = entity => 
     html`
-        
-		<h1>Yu-Shan Editor</h1>
-		<h2>${entity.name}</h2>
+<div id="title">
+	<h1>${entity.name}</h1>
+</div>
+<p>Please press "save" to save your changes to the server</p>
+<div id="content">
+	<div id="coreInfo">
+		<div>
+			<label>Name: </label> <input value="${entity.name}" />
+	    </div>
+				<input value="${entity.name}" />
 		<div>${entity.description}</div>
-		<div>${window.location.href}</div>
-		<p>Did render?</p>
-        `;
+	</div>
+	<div>${window.location.href}</div>
+	<p>Did render?</p>
+</div>
+       `;
 
 export async function renderEntity (entityID, htmelement) {
 	let entity = await getEntity(entityID);
