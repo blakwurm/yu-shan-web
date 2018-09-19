@@ -1,5 +1,11 @@
+import Freezer from './freezer/freezer.js';
+
 let entities = new Map([]);
 let relationships = new Map([]);
+
+let frz = new Freezer([]);
+console.log(frz);
+console.log("Hello World!");
 
 let getEntityFromServer = entityID =>
 	fetch(`https://api.yu-shan.com/entities/publius/v1?id=${entityID}`)
@@ -30,7 +36,7 @@ export async function getEntity(entityID) {
 	}
 }
 
-export async function putEntity(newEntity) {
+async function putEntity(newEntity) {
 	const newEntityString = JSON.stringify(newEntity);
 	entities.set(newEntity.id, newEntityString);
 	return newEntity;
@@ -43,6 +49,13 @@ export async function syncEntity(entityID) {
 		body: JSON.stringify(
 			{data: JSON.parse(entities.get(entityID))}
 		)});	
+}
+
+export async function changeEntity(entityID, mutateFn) {
+	let hydrEntity = await getEntity(entityID);
+	mutateFn(hydrEntity);
+	putEntit(hydrEntity);
+	return hydrEntity;
 }
 
 //pullEntity("YUentlOak0wTlRrM01qQXl")
