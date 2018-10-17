@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sitetitle, .sitetagline, .navbar, .pagetitle, .pagesubtitle, .copyright {
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 1px solid grey;
+    padding: 9px 0;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.pagetitle, .pagesubtitle {
+    text-align: left;
+}
+
+
+.pagecontent * {
+    padding: 8px;
+}
