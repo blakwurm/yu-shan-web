@@ -31,8 +31,42 @@
 	<div class="pagecontent">
 		<div class="sheetmodule charmeta">
 			<h3>Basic Information</h3>
-			<ul><label>Name</label><input></ul>
-			<ul><label>Player</label><input></ul>
+			<ul>
+				<li><label for="namefield">Name</label><input value="Rajmael" id="namefield"></li>
+				<li><label for="playerfield">Player</label><input value="Arian" id="playerfield"></li>
+				<li><label for="conceptfield">Concept</label><input value="Sorcerer, Teacher, King" id="conceptfield"></li>
+				<li><label for="animafield">Anima</label><input value="Don't remember atm" id="animafield"></li>
+			</ul>
+		</div>
+		<div class="sheetmodule solarinfo">
+			<h3>Solar Information</h3>
+			<ul>
+				<li>
+					<label for="casteselector">Caste</label>
+					<select id="casteselector">
+						<option value="dawn">Dawn</option>
+						<option value="eclipse">Eclipse</option>
+						<option value="night">Night</option>
+						<option value="zenith">Zenith</option>
+						<option selected="selected" value="twilight">Twilight</option>
+					</select>
+				</li>
+				<li>
+					<label for="supernalselector">Supernal</label>
+					<select id="supernalselector">
+						<option value="athletics">Athletics</option>
+						<option value="awareness">Awareness</option>
+						<option value="brawl">Brawl</option>
+						<option value="bureaucracy">Bureaucracy</option>
+						<option value="dodge">Dodge</option>
+						<option value="integrity">Integrity</option>
+						<option value="linguistics">Linguistics</option>
+						<option value="lore" selected>Lore</option>
+						<option value="medicine">Medicine</option>
+						<option value="occult">Occult</option>
+					</select>
+				</li>
+			</ul>
 		</div>
 	</div>
 	<p class="copyright">(C) 20X6 Blakwurm Entertainment</p>
