@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100px"
+   height="100px"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="SVGRoot"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="inkbg.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="10.24"
+     inkscape:cx="30.353056"
+     inkscape:cy="50.177701"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="2493"
+     inkscape:window-height="1385"
+     inkscape:window-x="67"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     showguides="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid11527"
+       dotted="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs11511">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient12106">
+      <stop
+         style="stop-color:#030000;stop-opacity:0.30593607"
+         offset="0"
+         id="stop12102" />
+      <stop
+         style="stop-color:#030000;stop-opacity:0;"
+         offset="1"
+         id="stop12104" />
+    </linearGradient>
+    <filter
+       inkscape:label="Ink Paint"
+       inkscape:menu="Textures"
+       inkscape:menu-tooltip="Ink paint on paper with some turbulent color shift"
+       height="1.3"
+       y="-0.15"
+       width="1.3"
+       x="-0.15"
+       style="color-interpolation-filters:sRGB;"
+       id="filter12086">
+      <feTurbulence
+         type="fractalNoise"
+         baseFrequency="0.080000000000000002"
+         numOctaves="4"
+         result="result0"
+         id="feTurbulence12074"
+         seed="69" />
+      <feDisplacementMap
+         in2="result0"
+         in="SourceGraphic"
+         xChannelSelector="R"
+         yChannelSelector="G"
+         scale="10"
+         result="result2"
+         id="feDisplacementMap12076" />
+      <feBlend
+         result="result5"
+         in="result2"
+         mode="multiply"
+         in2="result2"
+         id="feBlend12078" />
+      <feGaussianBlur
+         stdDeviation="10"
+         in="result2"
+         result="result4"
+         id="feGaussianBlur12080" />
+      <feComposite
+         operator="arithmetic"
+         in2="result4"
+         in="result0"
+         k3="0.5"
+         k1="2"
+         result="result6"
+         id="feComposite12082" />
+      <feComposite
+         operator="in"
+         in2="result5"
+         in="result6"
+         result="result7"
+         id="feComposite12084" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient12106"
+       id="linearGradient12108"
+       x1="51"
+       y1="6"
+       x2="50"
+       y2="65"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       inkscape:label="Ink Paint"
+       inkscape:menu="Textures"
+       inkscape:menu-tooltip="Ink paint on paper with some turbulent color shift"
+       height="1.3"
+       y="-0.15"
+       width="1.3"
+       x="-0.15"
+       style="color-interpolation-filters:sRGB;"
+       id="filter12230">
+      <feTurbulence
+         type="fractalNoise"
+         baseFrequency="0.07"
+         numOctaves="4"
+         result="result0"
+         id="feTurbulence12218" />
+      <feDisplacementMap
+         in2="result0"
+         in="SourceGraphic"
+         xChannelSelector="R"
+         yChannelSelector="G"
+         scale="10"
+         result="result2"
+         id="feDisplacementMap12220" />
+      <feBlend
+         result="result5"
+         in="result2"
+         mode="multiply"
+         in2="result2"
+         id="feBlend12222" />
+      <feGaussianBlur
+         stdDeviation="10"
+         in="result2"
+         result="result4"
+         id="feGaussianBlur12224" />
+      <feComposite
+         operator="arithmetic"
+         in2="result4"
+         in="result0"
+         k3="0.5"
+         k1="2"
+         result="result6"
+         id="feComposite12226" />
+      <feComposite
+         operator="in"
+         in2="result5"
+         in="result6"
+         result="result7"
+         id="feComposite12228" />
+    </filter>
+  </defs>
+  <metadata
+     id="metadata11514">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2"
+     style="display:inline">
+    <rect
+       style="opacity:1;fill:url(#linearGradient12108);fill-opacity:1;stroke:none;stroke-width:4.50546312;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter12230)"
+       id="bgrect"
+       width="80"
+       height="76"
+       x="10"
+       y="5"
+       ry="5" />
+  </g>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1"
+     style="display:inline">
+    <rect
+       style="opacity:1;fill:#030000;fill-opacity:0.9677419;stroke:none;stroke-width:1.83847761;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter12086)"
+       id="underlinerect"
+       width="77.319153"
+       height="18"
+       x="11"
+       y="79"
+       ry="4.5"
+       transform="matrix(1.1898734,0,0,1,-9.0886077,0)" />
+  </g>
+</svg>
