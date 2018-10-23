@@ -4,4 +4,4 @@ import {renderEntity} from './templates.js';
 let entities = new Map([["thing", "sample"]]);
 
 
-renderEntity("YUentlOak0wTlRrM01qQXl", document.body);
+renderEntity("YUentlOak0wTlRrM01qQXl", document.getElementsByClassName('pagecontent')[0]);
