@@ -100,7 +100,7 @@ span.dots button {
     color: transparent;
 }
  
-span.dots[value*="0"] button:nth-child(-n+3) {
+span.dots[value*="2"] button:nth-child(-n+3) {
     background: black;
 }
 
