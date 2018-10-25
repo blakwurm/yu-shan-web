@@ -1,0 +1,113 @@
+{
+    "resp": 0,
+    "data": [
+        {
+            "description": "A character used for testing the editor",
+            "category": "character",
+            "health-levels": [
+                27,
+                42,
+                49,
+                50
+            ],
+            "essence-peripheral": 119,
+            "caste": "twilight",
+            "limit-trigger" : "When I see others suffering through ignorance or malice and cannot, through inability or circumstance, help them.",
+            "additional-abilities": [
+                [
+                    "martial-arts",
+                    4,
+                    "Breathing Dragon Style"
+                ]
+            ],
+            "supernal": "lore",
+            "rulebooks": [
+                "hprH5Ll1WjRJW7WE83Ve9K",
+                "7y2df87l1YI4A7",
+                "fe5WYGUpHLcTC3ZgJ",
+                "u84Z4aGWtbhZj",
+                "7AS8o2Vs7CPXRGUdkNtJ1bGGNa4",
+                "Mh4sHDF0W4635jU9uSxt",
+                "URlS66Mz9"
+            ],
+            "essence-rating": 1,
+            "anima": "The Calligram Phoenix",
+            "name": "Rajmael",
+            "willpower-maximum": 10,
+            "subcategory": "solar",
+            "damage-aggravated": 1,
+            "abilities": {
+                "athletics": 1,
+                "awareness": 4,
+                "brawl": 1,
+                "bureaucracy": 2,
+                "dodge": 3,
+                "integrity": 2,
+                "linguistics": 2,
+                "lore": 5,
+                "melee": 1,
+                "occult": 4,
+                "socialize": 3
+            },
+            "variation": null,
+            "committed-personal": 3,
+            "id": "YUentlOak0wTlRrM01qQXl",
+            "willpower-temporary": 9,
+            "damage-bashing": 2,
+            "limit-accrued": 7,
+            "intimacies": [
+                [
+                    "defining",
+                    "principle",
+                    "Wisdom is the flame that pushes back ignorance",
+                    ""
+                ],
+                [
+                    "defining",
+                    "principle",
+                    "The finest teacher is a fascinated student",
+                    ""
+                ],
+                [
+                    "minor",
+                    "tie",
+                    "My sisters",
+                    "Idealized admiration"
+                ],
+                [
+                    "major",
+                    "tie",
+                    "I cannot bear to be helpless",
+                    "anxiety"
+                ]
+        ],
+            "favored-abilities": [
+                "athletics",
+                "awareness",
+                "brawl",
+                "bureaucracy",
+                "dodge",
+                "integrity",
+                "linguistics",
+                "lore",
+                "medicine",
+                "occult"
+            ],
+            "attributes": {
+                "strength": 2,
+                "dexterity": 4,
+                "stamina": 2,
+                "charisma": 3,
+                "manipulation": 3,
+                "appearance": 3,
+                "perception": 3,
+                "intelligence": 5,
+                "wits": 3
+            },
+            "committed-peripheral": 2,
+            "essence-personal": 1,
+            "damage-lethal": 1
+        }
+    ],
+    "error": ""
+}
