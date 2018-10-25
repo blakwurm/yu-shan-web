@@ -1,0 +1,28 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+
+body {
+	background: #2F3136;
+	color: #DCDDDE;
+	font-family: Bellefair;
+	font-weight: lighter;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Envision;
+	font-weight: bold;
+}
+
+div {
+	border: solid black 1px;
+}
+
+#title {
+	background: #202225;
+	padding: 10px;
+	box-shadow: 0 0 9px 3px black;
+	margin-bottom: 10px; 
+}
