@@ -41,8 +41,8 @@ export let entityTemplate = entity =>
 		<div class="sheetmodule attributes">
 			<h3>Attributes</h3>
 			<ul>
-				<li><label>Strength    </label>${dots({value: 3})}</li>
-				<li><label>Dexterity   </label>${dots({value: 3})}</li>
+				<li><label>Strength    </label>${dots({value : 3})}</li>
+				<li><label>Dexterity   </label>${dots({value : 3})}</li>
 				<li><label>Stamina     </label><span class="dots" value="2"><span class="text">2</span><button class="1">1</button><button class="2">2</button><button class="3">3</button><button class="4">4</button><button class="5">5</button></span></li>
 				<li><label>Charisma    </label><span class="dots" value="3"><span class="text">3</span><button class="1">1</button><button class="2">2</button><button class="3">3</button><button class="4">4</button><button class="5">5</button></span></li>
 				<li><label>Manipulation</label><span class="dots" value="3"><span class="text">3</span><button class="1">1</button><button class="2">2</button><button class="3">3</button><button class="4">4</button><button class="5">5</button></span></li>
@@ -148,24 +148,20 @@ export let entityTemplate = entity =>
 			</ul>
 		</div>
 	   `;
+
+let range = ({min = 0, max = 10}) =>
+	[...Array(max - min + 1).keys()].map(i => i + min)
 	   
-let dots = (args) => {
-	let defaultargs = {value: 1, min: 1, max: 5};
-	let realargs = Object.assign(defaultargs, args);
-	console.log(realargs);
-	return	html `
+let dots = ({value = 2, min = 1, max = 7}) => 
+	html `
 		<span class="dots" value="2">
 			<span class="text">2</span>
-			<button class="1">1</button>
-			<button class="2">2</button>
-			<button class="3">3</button>
-			<button class="4">4</button>
-			<button class="5">5</button>
+				${range({min: min, max: max})
+	  	          .map(n => html`<button class="${'dot' + n} ${n < value ? 'selected' : 'not-selected'}">${n}</button>`)}
 		</span>
-	
 	`
 
-}
+
 
 export async function renderEntity (entityID, htmelement) {
 	let entity = await getEntity(entityID);

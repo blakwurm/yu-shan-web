@@ -100,10 +100,12 @@ span.dots button {
     color: transparent;
 }
  
-span.dots[value*="2"] button:nth-child(-n+3) {
+span.dots button.selected {
     background: black;
 }
-
+span.dots button.selected.dot0 {
+    background: white;
+}
 @media (min-width: 600px) {
     .pagecontent {
         grid-template-rows:
